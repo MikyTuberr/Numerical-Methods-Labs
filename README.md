@@ -1,4 +1,8 @@
-# Numerical Methods - Laboratory 1 
+# Laboratory 1
+
+Laboratory 1 required completion of the MATLAB Onramp course, focusing on introducing participants to the basics of using this popular tool for numerical computation and programming.
+
+# Laboratory 2
 
 This laboratory, contains two main topics:
 
