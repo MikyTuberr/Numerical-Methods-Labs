@@ -1,0 +1,21 @@
+Metoda bezposrednia:
+Norma błędu rezydualnego:
+0.000000000000706454
+
+Metoda Jacobiego:
+Norma błędu rezydualnego:
+126857557419004007876938416069760034234685745553808161062256212022297822095556350991262678544196792675590692643838179629735438641851843510399975884339100414625485625707304062969971180066390555978556852840946257644733985181749416782214421024903408606536029492224945741372722207769909938135484151028003144466432.000000
+
+Liczba iteracji: 616
+
+Metoda Gaussa-Seidela:
+Norma błędu rezydualnego:
+64367347963.391129
+
+Liczba iteracji: 1000
+
+Na podstawie uzyskanych danych wynika, że metody iteracyjne (Jacobiego i Gaussa-Seidela) nie osiągnęły zbieżności dla dostarczonych danych wejściowych.
+Na wykresach (zadanie6-gauss.png, zadanie6-jacobi.png) możemy zaobserować, jak rośnie błąd rezydualny po przekroczeniu granicznej liczby iteracji.
+W przeciwieństwie do tego, metoda bezpośrednia osiągnęła normę błędu rezydualnego rzędu 10^-13, co świadczy o jej skuteczności w rozwiązaniu problemu.
+Pomimo potencjalnych zalet metod iteracyjnych, ich niepowodzenie w tym konkretnym przypadku wskazuje na ich ograniczenia w radzeniu sobie z danymi o określonych właściwościach.
+Wybór odpowiedniej metody rozwiązania równań macierzowych powinien być dokonywany na podstawie analizy charakterystyki macierzy oraz innych czynników specyficznych dla danego problemu.
