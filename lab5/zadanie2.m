@@ -36,7 +36,7 @@ function [nodes_Chebyshev, V, V2, original_Runge, interpolated_Runge, interpolat
     xlabel('x');
     ylabel('f(x)');
     title('Interpolacja dla równomiernie rozmieszczonych węzłów');
-    legend('Funkcja Runge', 'Interpolacja funkcji Runge', 'Węzły interpoalcji');
+    legend('Funkcja Runge', 'Interpolacja funkcji Runge', 'Węzły interpolacji');
 
     subplot(2,1,2);
     plot(x_fine, original_Runge, 'LineWidth', 2);
@@ -47,7 +47,7 @@ function [nodes_Chebyshev, V, V2, original_Runge, interpolated_Runge, interpolat
     xlabel('x');
     ylabel('f(x)');
     title('Interpolacja dla węzłów Chebysheva drugiego rodzaju');
-    legend('Funkcja Runge', 'Interpolacja funkcji Runge', 'Węzły interpoalcji');
+    legend('Funkcja Runge', 'Interpolacja funkcji Runge', 'Węzły interpolacji');
 
     saveas(gcf, 'zadanie2.png');
 end
